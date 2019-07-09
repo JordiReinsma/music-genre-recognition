@@ -43,7 +43,7 @@ NORMALIZE_METHOD = 0
 BATCH_SIZE = 0.05 * TRAIN_SIZE
 TRACK_SHAPE = (128, 1288)
 TRACK_RESHAPE = (64, 320)
-EPOCHS = 10
+EPOCHS = 3
 
 # Obtem os labels de todas as musicas do fma_small
 def get_track_labels():
